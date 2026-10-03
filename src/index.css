@@ -73,3 +73,21 @@
   animation: pulse 2s infinite;
 }
 
+/* Custom Hardware Rack Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #111216;
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #2a2c35;
+  border-radius: 3px;
+  border: 1px solid #1c1d22;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ff4444;
+}
+
